@@ -81,6 +81,7 @@
         @endif
 
         <div class="content">
+        @section('content')
             <pagina tamanho="10">
                 <painel titulo="Contatos">
                     <div class="col-md-4">
@@ -108,7 +109,9 @@
                     </div>
                 </painel>
             </pagina>
+        @endsection    
         </div>
+        
     </div>
 </body>
 
