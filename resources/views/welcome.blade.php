@@ -80,6 +80,7 @@
         </div>
         @endif
 
+        @extends('layouts.app')
         @section('content')
         <pagina tamanho="10">
             <painel titulo="Contatos">
