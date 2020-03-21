@@ -80,9 +80,8 @@
         </div>
         @endif
     </div>
-    
+
     <div class="content">
-        @section('content')
             <pagina tamanho="10">
                 <painel titulo="Contatos">
                     <div class="col-md-4">
@@ -109,8 +108,7 @@
                         <caixa qtd="29" titulo="Cursos Online" url="#" cor="#0064b7" icone="ion-university" nome_link="Acompanhar Aprendizado "></caixa>
                     </div>
                 </painel>
-            </pagina>
-        @endsection    
+            </pagina>  
         </div>
 </body>
 
