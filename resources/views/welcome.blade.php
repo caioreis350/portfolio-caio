@@ -79,8 +79,9 @@
             @endauth
         </div>
         @endif
-
-        <div class="content">
+    </div>
+    
+    <div class="content">
         @section('content')
             <pagina tamanho="10">
                 <painel titulo="Contatos">
@@ -111,8 +112,6 @@
             </pagina>
         @endsection    
         </div>
-        
-    </div>
 </body>
 
 </html>
