@@ -13,6 +13,10 @@
 
     <!-- Styles -->
     <style>
+        .full-height {
+            height: 100vh;
+        }
+
         .flex-center {
             align-items: center;
             display: flex;
@@ -29,14 +33,34 @@
             top: 18px;
         }
 
+        .content {
+            text-align: center;
+        }
 
+        .title {
+            font-size: 84px;
+        }
+
+        .links>a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 
 <body>
     <div class="flex-center position-ref">
         @if (Route::has('login'))
-        <div class="top-right">
+        <div class="top-right links">
             @auth
             <a href="{{ url('/home') }}">Home</a>
             @else
@@ -47,7 +71,7 @@
         @endif
     </div>
 
-    <div class>
+    <div class="content">
             <pagina tamanho="10">
                 <painel titulo="Contatos">
                     <div class="col-md-4">
